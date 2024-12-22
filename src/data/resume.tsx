@@ -281,6 +281,33 @@ export const DATA = {
       ],
       image: "/nebulacanvas.png",
     },
+    {
+      title: "Code To Image",
+      href: "https://code-to-image-azure.vercel.app/",
+      dates: "Dec 2024 - Present",
+      active: true,
+      description: "Code to Image is a web application that converts code snippets into beautiful images. It is designed to help developers share their code on social media platforms like Twitter, LinkedIn, and Instagram in a visually appealing way. The application supports multiple programming languages and themes, allowing users to customize the appearance of their code snippets before generating the final image.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "HTML2Canvas",
+        "Moncao Editor API"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://code-to-image-azure.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/divyanshwrite/code-to-image",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/CodeToImage.png",
+    },
   ],
   hackathons: [
     {
