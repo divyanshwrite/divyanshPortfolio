@@ -8,7 +8,7 @@ export const DATA = {
     "Software Engineer, I love building things and helping people. Very active on GitHub.",
   summary:
     "At the end of 2023, I decided to transition from my current role to fully focus on pursuing my passions and building something impactful. With a background shaped by Full Stack Development And Problem Solving, I’ve enjoyed exploring diverse opportunities—whether through Participating In Multiple Hackathons And by being part of inspiring communities like Tech community (dev.to,hashnode,medium) which keep me updated on regular basis.",
-  avatarUrl: "/Profile.jpg",
+  avatarUrl: "/Profile.jpg", 
   skills: [
     "React",
     "Next.js",
