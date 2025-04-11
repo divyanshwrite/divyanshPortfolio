@@ -183,6 +183,29 @@ export const DATA = {
       image: "/WebPortfolio.png",
     },
     {
+      title: "AIContent Generator",
+      href: "",
+      dates: "April 2025 - April 2025",
+      active: true,
+      description:
+        "AI Content Generator With Gemini API",
+      technologies: [
+        "NEXT JS",
+        "Toast UI",
+        "Tailwind CSS",
+        "Gemini API"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://docontent.vercel.app/dashboard",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/jZ4Kb1X1/Screenshot-2025-04-11-at-21-51-18-Do-Content.png",
+    },
+    
+    {
       title: "8-Bit Style Design",
       href: "https://8-bit-style-design.vercel.app/",
       dates: "June 2023 - Present",
