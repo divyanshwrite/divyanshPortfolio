@@ -202,7 +202,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://i.ibb.co/jZ4Kb1X1/Screenshot-2025-04-11-at-21-51-18-Do-Content.png",
+      image: "./DoContent.png",
     },
     
     {
