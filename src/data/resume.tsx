@@ -331,6 +331,28 @@ export const DATA = {
       ],
       image: "/CodeToImage.png",
     },
+    {
+      title: "StudyPal",
+      href: "",
+      dates: "April 2025 - April 2025",
+      active: true,
+      description:
+        "Lets Like Minded Student Connect Each Other Via Video Confrencing, Made Me Qualified For The Final Round Of The RIDE Hack Hackathon Held In JIIT Sector 62 Noida, Uttar Pradesh",
+      technologies: [
+        "React Js",
+        "Bootstrap",
+        "oAuth",
+        ""
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/StudyPal.png",
+    },
   ],
   hackathons: [
     {
