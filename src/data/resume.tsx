@@ -342,7 +342,6 @@ export const DATA = {
         "React Js",
         "Bootstrap",
         "oAuth",
-        ""
       ],
       links: [
         {
@@ -352,6 +351,28 @@ export const DATA = {
         },
       ],
       image: "/StudyPal.png",
+    },
+    {
+      title: "Web Based JS Code Compiler",
+      href: "",
+      dates: "April 2025 - April 2025",
+      active: true,
+      description:
+        "A Web Based JavaScript Compiler Based Out Of Monaco Editor API Which Is Currelty Used IN VS Code",
+      technologies: [
+        "Next Js",
+        "Tailwind CSS",
+        "Clerk",
+        "Monaco Editor API"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/JSCode.png",
     },
   ],
   hackathons: [
