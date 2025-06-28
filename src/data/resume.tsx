@@ -261,7 +261,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/Detector.png",
+      image: "https://i.ibb.co/M5Sn78Q8/Screenshot-2025-06-28-at-4-17-53-PM.png",
     },
         {
       title: "Intelligent Memory-Based Obfuscated Malware Detector",
