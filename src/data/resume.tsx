@@ -232,6 +232,38 @@ export const DATA = {
       image: "/BitStyle.png",
     },
     {
+      title: "AI PPT Generator | ThesisOne - SlideOne",
+      href: "https://vandral-thesis-one.vercel.app/",
+      dates: "Jun 2025 - Jun 2025",
+      active: true,
+      description:
+        "ThesisOne is an AI-powered presentation generator designed to instantly convert unstructured content — like documents, URLs, or text prompts — into professional, investor-ready pitch decks. Built for founders, analysts, and consultants, it uses LLMs and design intelligence to auto-generate slide layouts, visuals, and narratives. The platform offers real-time collaboration, drag-and-drop editing, export to PPT/PDF, and workspace management — all in a seamless Google Slides–like interface.",
+      technologies: [
+        "React JS",
+        "Node JS",
+        "MongoDB",
+        "Vercel",
+        "Render",
+        "Express",
+        "pptxgenjs",
+        "jspdf",
+        "Tailwind"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://vandral-thesis-one.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/vandralcapital/VandralThesisOne",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Detector.png",
+    },
+        {
       title: "Intelligent Memory-Based Obfuscated Malware Detector",
       href: "https://obfucated-malware-detector-lrc3tjj7lzhwqssgxs8q6q.streamlit.app/",
       dates: "April 2023 - September 2023",
