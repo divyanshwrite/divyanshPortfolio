@@ -62,76 +62,28 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Artixio",
+      href: "https://www.artixio.com/",
       badges: [],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      title: "Software Engineer Intern",
+      logoUrl: "/Artixio.png",
+      start: "Aug 2025",
+      end: "",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Working On Automation And User Interface And User Expreience For The Web",
     },
     {
-      company: "Shopify",
+      company: "Religare Housing Development Finance Corporation Limited",
       badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      href: "https://www.religarehomeloans.com/",
+      location: "On-Site",
+      title: "Full Stack Developer | Intern",
+      logoUrl: "/Religare.png",
+      start: "May 2025",
+      end: "July 2025",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
-    },
-    {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
-      badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "I built a MERN-based entitlement review system for three departments, reducing manual review efforts by 60%. I integrated LDAP authentication and Excel-driven rights controls with dynamic filters, automated notification emails with Nodemailer (migrating from Gmail to Outlook SMTP), and led the production deployment on Ubuntu 22.04. Additionally, I authored comprehensive documentation for code, database, production, and onboarding workflows.",
     },
   ],
   education: [
@@ -153,84 +105,6 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "Web Portfolio",
-      href: "https://utkarshbishtportfolio.vercel.app/",
-      dates: "Nov 2024 - Dec 2024",
-      active: true,
-      description:
-        "Utkarsh Bisht's Portfolio is a testament to modern web development, built with a robust tech stack designed for performance and aesthetics. Featuring technologies like React, Next.js, and Vercel for seamless deployment, it highlights projects that leverage cutting-edge tools and frameworks. From dynamic front-end designs to scalable back-end solutions, this portfolio is a showcase of technical expertise and innovation in the tech space.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://utkarshbishtportfolio.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/divyanshwrite/project",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/WebPortfolio.png",
-    },
-    {
-      title: "AIContent Generator",
-      href: "",
-      dates: "April 2025 - April 2025",
-      active: true,
-      description:
-        "AI Content Generator With Gemini API",
-      technologies: [
-        "NEXT JS",
-        "Toast UI",
-        "Tailwind CSS",
-        "Gemini API"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://docontent.vercel.app/dashboard",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/DoContent.png",
-    },
-    
-    {
-      title: "8-Bit Style Design",
-      href: "https://8-bit-style-design.vercel.app/",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "8-Bit Style Design is your gateway to retro-inspired creativity, blending nostalgia with modern design aesthetics. Explore a collection of pixel-perfect designs, vibrant 8-bit artwork, and tools tailored to spark your imagination. Whether you're a fan of classic gaming visuals or simply love the charm of pixel art, this platform brings timeless creativity to life in every pixel.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "Tailwind"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://8-bit-style-design.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/divyanshwrite/8BitStyleDesign",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/BitStyle.png",
-    },
     {
       title: "AI PPT Generator | ThesisOne - SlideOne",
       href: "https://vandral-thesis-one.vercel.app/",
@@ -263,7 +137,7 @@ export const DATA = {
       ],
       image: "/AIPPT.png",
     },
-        {
+    {
       title: "Intelligent Memory-Based Obfuscated Malware Detector",
       href: "https://obfucated-malware-detector-lrc3tjj7lzhwqssgxs8q6q.streamlit.app/",
       dates: "April 2023 - September 2023",
@@ -294,47 +168,49 @@ export const DATA = {
       ],
       image: "/Detector.png",
     },
+
     {
-      title: "The Gmail Clone",
+      title: "AIContent Generator",
       href: "",
-      dates: "April 2023 - March 2024",
+      dates: "April 2025 - April 2025",
       active: true,
       description:
-        "Its A Gmail Clone Wrote This Code For Practicle ",
+        "AI Content Generator With Gemini API",
       technologies: [
-        "React JS",
-        "Material UI",
-        "Tailwind CSS"
+        "NEXT JS",
+        "Toast UI",
+        "Tailwind CSS",
+        "Gemini API"
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://docontent.vercel.app/dashboard",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/Mail.png",
+      image: "/DoContent.png",
     },
     {
-      title: "Nebula Canvas",
-      href: "https://66f2d8cef57ecb95d2ba62ed-djaywyfdzy.chromatic.com/?path=/docs/components-button--docs",
-      dates: "April 2023 - March 2024",
+      title: "StudyPal",
+      href: "",
+      dates: "April 2025 - April 2025",
       active: true,
       description:
-        "A React component library that provides a set of customizable and reusable components for building modern web applications. It is designed to be easy to use, flexible, and highly customizable, allowing developers to create beautiful and functional user interfaces with minimal effort.",
+        "Lets Like Minded Student Connect Each Other Via Video Confrencing, Made Me Qualified For The Final Round Of The RIDE Hack Hackathon Held In JIIT Sector 62 Noida, Uttar Pradesh",
       technologies: [
-        "React JS",
-        "JavaScript",
-        "Tailwind CSS"
+        "React Js",
+        "Bootstrap",
+        "oAuth",
       ],
       links: [
         {
           type: "Website",
-          href: "https://66f2d8cef57ecb95d2ba62ed-djaywyfdzy.chromatic.com/?path=/docs/components-button--docs",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/nebulacanvas.png",
+      image: "/StudyPal.png",
     },
     {
       title: "Code To Image",
@@ -364,26 +240,107 @@ export const DATA = {
       image: "/CodeToImage.png",
     },
     {
-      title: "StudyPal",
-      href: "",
-      dates: "April 2025 - April 2025",
+      title: "Nebula Canvas",
+      href: "https://66f2d8cef57ecb95d2ba62ed-djaywyfdzy.chromatic.com/?path=/docs/components-button--docs",
+      dates: "April 2023 - March 2024",
       active: true,
       description:
-        "Lets Like Minded Student Connect Each Other Via Video Confrencing, Made Me Qualified For The Final Round Of The RIDE Hack Hackathon Held In JIIT Sector 62 Noida, Uttar Pradesh",
+        "A React component library that provides a set of customizable and reusable components for building modern web applications. It is designed to be easy to use, flexible, and highly customizable, allowing developers to create beautiful and functional user interfaces with minimal effort.",
       technologies: [
-        "React Js",
-        "Bootstrap",
-        "oAuth",
+        "React JS",
+        "JavaScript",
+        "Tailwind CSS"
       ],
       links: [
         {
           type: "Website",
-          href: "",
+          href: "https://66f2d8cef57ecb95d2ba62ed-djaywyfdzy.chromatic.com/?path=/docs/components-button--docs",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/StudyPal.png",
+      image: "/nebulacanvas.png",
     },
+    {
+      title: "Web Portfolio",
+      href: "https://utkarshbishtportfolio.vercel.app/",
+      dates: "Nov 2024 - Dec 2024",
+      active: true,
+      description:
+        "Utkarsh Bisht's Portfolio is a testament to modern web development, built with a robust tech stack designed for performance and aesthetics. Featuring technologies like React, Next.js, and Vercel for seamless deployment, it highlights projects that leverage cutting-edge tools and frameworks. From dynamic front-end designs to scalable back-end solutions, this portfolio is a showcase of technical expertise and innovation in the tech space.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://utkarshbishtportfolio.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/divyanshwrite/project",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/WebPortfolio.png",
+    },
+    {
+      title: "8-Bit Style Design",
+      href: "https://8-bit-style-design.vercel.app/",
+      dates: "June 2023 - Present",
+      active: true,
+      description:
+        "8-Bit Style Design is your gateway to retro-inspired creativity, blending nostalgia with modern design aesthetics. Explore a collection of pixel-perfect designs, vibrant 8-bit artwork, and tools tailored to spark your imagination. Whether you're a fan of classic gaming visuals or simply love the charm of pixel art, this platform brings timeless creativity to life in every pixel.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Tailwind"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://8-bit-style-design.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/divyanshwrite/8BitStyleDesign",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/BitStyle.png",
+    },
+
+
+    {
+      title: "The Gmail Clone",
+      href: "",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "Its A Gmail Clone Wrote This Code For Practicle ",
+      technologies: [
+        "React JS",
+        "Material UI",
+        "Tailwind CSS"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://automatic.chat",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/Mail.png",
+    },
+
+
+
     {
       title: "Web Based JS Code Compiler",
       href: "",
