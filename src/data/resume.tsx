@@ -62,6 +62,24 @@ export const DATA = {
 
   work: [
     {
+      company: "JobYaan",
+      href: "https://jobyaan.com/",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Developer, App Developer",
+      logoUrl: "/JobYaan.png",
+      start: "Jan 2025",
+      end: "Present",
+      duration: "3 Months",
+      description: [
+        "Built and launched JobYaan, a React Native/Expo job marketplace for blue-collar workers in India, taking the product from inception to Play Store release.",
+        "Helped the app cross 100+ downloads within its first week of going live through a polished mobile experience and production-ready release flow.",
+        "Architected the frontend for job discovery, multi-step job posting, recruiter workflows, deep linking, and user onboarding.",
+        "Integrated Razorpay payments with GST handling, FCM push notifications, Firebase Analytics, and SMS OTP auto-fetch using Android SMS Retriever API.",
+        "Collaborated with backend (Go/Gin) and QA teams across EAS build pipelines, release testing, and production deployments.",
+      ],
+    },
+    {
       company: "Artixio",
       href: "https://www.artixio.com/",
       badges: [],
@@ -70,6 +88,7 @@ export const DATA = {
       logoUrl: "/Artixio.png",
       start: "Aug 2025",
       end: "",
+      duration: "6 Months",
       description:
         "Working On Automation And User Interface And User Expreience For The Web",
     },
@@ -82,6 +101,7 @@ export const DATA = {
       logoUrl: "/Religare.png",
       start: "May 2025",
       end: "July 2025",
+      duration: "2 Months",
       description:
         "I built a MERN-based entitlement review system for three departments, reducing manual review efforts by 60%. I integrated LDAP authentication and Excel-driven rights controls with dynamic filters, automated notification emails with Nodemailer (migrating from Gmail to Outlook SMTP), and led the production deployment on Ubuntu 22.04. Additionally, I authored comprehensive documentation for code, database, production, and onboarding workflows.",
     },

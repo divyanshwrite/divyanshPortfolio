@@ -54,6 +54,11 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">Work Experience</h2>
           </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 5.5}>
+            <p className="text-sm text-muted-foreground">
+              Total Experience: 11 Months
+            </p>
+          </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade
               key={work.company}
@@ -67,7 +72,7 @@ export default function Page() {
                 subtitle={work.title}
                 href={work.href}
                 badges={work.badges}
-                period={`${work.start} - ${work.end ?? "Present"}`}
+                period={work.duration ?? `${work.start} - ${work.end ?? "Present"}`}
                 description={work.description}
               />
             </BlurFade>
@@ -206,15 +211,18 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Thank you for visiting my portfolio. I&apos;m always open to
+                exploring new opportunities, professional collaborations, and
+                meaningful projects. If you&apos;d like to discuss a role,
+                partnership, or potential collaboration, please reach out via{" "}
                 <Link
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on Mail
-                </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                  email
+                </Link>
+                . I&apos;ll respond at the earliest opportunity and look
+                forward to connecting with you. 😊
               </p>
             </div>
           </BlurFade>
